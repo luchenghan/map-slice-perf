@@ -1,0 +1,56 @@
+goos: linux
+goarch: amd64
+pkg: map_slice_perf
+cpu: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
+BenchmarkCallSliceValues/index_10-6         	284008213	         4.236 ns/op
+BenchmarkCallSliceValues/index_10-6         	281820276	         4.225 ns/op
+BenchmarkCallSliceValues/index_10-6         	284508016	         4.228 ns/op
+BenchmarkCallSliceValues/index_10-6         	282721531	         4.219 ns/op
+BenchmarkCallSliceValues/index_10-6         	281391014	         4.261 ns/op
+BenchmarkCallSliceValues/index_40-6         	41803998	        27.96 ns/op
+BenchmarkCallSliceValues/index_40-6         	41536028	        28.03 ns/op
+BenchmarkCallSliceValues/index_40-6         	42580140	        28.18 ns/op
+BenchmarkCallSliceValues/index_40-6         	42567352	        28.07 ns/op
+BenchmarkCallSliceValues/index_40-6         	42475231	        28.15 ns/op
+BenchmarkCallSliceValues/index_152-6        	19313840	        61.98 ns/op
+BenchmarkCallSliceValues/index_152-6        	18731868	        61.47 ns/op
+BenchmarkCallSliceValues/index_152-6        	19323352	        61.59 ns/op
+BenchmarkCallSliceValues/index_152-6        	19312719	        61.92 ns/op
+BenchmarkCallSliceValues/index_152-6        	19160671	        61.77 ns/op
+BenchmarkCallSliceValues/index_201-6        	14867625	        80.76 ns/op
+BenchmarkCallSliceValues/index_201-6        	14638591	        80.69 ns/op
+BenchmarkCallSliceValues/index_201-6        	14776864	        80.81 ns/op
+BenchmarkCallSliceValues/index_201-6        	14737358	        81.17 ns/op
+BenchmarkCallSliceValues/index_201-6        	14832610	        80.18 ns/op
+BenchmarkCallSliceValues/index_3232-6       	 1000000	      1136 ns/op
+BenchmarkCallSliceValues/index_3232-6       	 1000000	      1141 ns/op
+BenchmarkCallSliceValues/index_3232-6       	 1000000	      1130 ns/op
+BenchmarkCallSliceValues/index_3232-6       	  990492	      1138 ns/op
+BenchmarkCallSliceValues/index_3232-6       	  987195	      1132 ns/op
+BenchmarkCallSliceValues/index_7512-6       	  469303	      2495 ns/op
+BenchmarkCallSliceValues/index_7512-6       	  459723	      2480 ns/op
+BenchmarkCallSliceValues/index_7512-6       	  455684	      2492 ns/op
+BenchmarkCallSliceValues/index_7512-6       	  464092	      2541 ns/op
+BenchmarkCallSliceValues/index_7512-6       	  421413	      2489 ns/op
+BenchmarkCallSliceValues/index_10012-6      	  326037	      3359 ns/op
+BenchmarkCallSliceValues/index_10012-6      	  332295	      3352 ns/op
+BenchmarkCallSliceValues/index_10012-6      	  317106	      3335 ns/op
+BenchmarkCallSliceValues/index_10012-6      	  344673	      3334 ns/op
+BenchmarkCallSliceValues/index_10012-6      	  337322	      3280 ns/op
+BenchmarkCallSliceValues/index_23412-6      	  137438	      7920 ns/op
+BenchmarkCallSliceValues/index_23412-6      	  141586	      7889 ns/op
+BenchmarkCallSliceValues/index_23412-6      	  138907	      7882 ns/op
+BenchmarkCallSliceValues/index_23412-6      	  141493	      7941 ns/op
+BenchmarkCallSliceValues/index_23412-6      	  141259	      7854 ns/op
+BenchmarkCallSliceValues/index_64123-6      	   50467	     23478 ns/op
+BenchmarkCallSliceValues/index_64123-6      	   50810	     23264 ns/op
+BenchmarkCallSliceValues/index_64123-6      	   50505	     23474 ns/op
+BenchmarkCallSliceValues/index_64123-6      	   51051	     23554 ns/op
+BenchmarkCallSliceValues/index_64123-6      	   50552	     23403 ns/op
+BenchmarkCallSliceValues/index_655123-6     	    4177	    268995 ns/op
+BenchmarkCallSliceValues/index_655123-6     	    4155	    293191 ns/op
+BenchmarkCallSliceValues/index_655123-6     	    3663	    306420 ns/op
+BenchmarkCallSliceValues/index_655123-6     	    3978	    293720 ns/op
+BenchmarkCallSliceValues/index_655123-6     	    4224	    299908 ns/op
+PASS
+ok  	map_slice_perf	67.504s
